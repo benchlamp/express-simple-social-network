@@ -10,7 +10,8 @@ var routes = require("./routes");
 var setUpPassport = require("./setuppassport");
 var app = express();
 
-mongoose.connect("mongodb://localhost:27017/test");
+//mongoose.connect("mongodb://localhost:27017/test");
+mongoose.connect("mongodb://benchlamp:Deuce74011@ds147052.mlab.com:47052/jamesrea83");
 
 setUpPassport();
 
